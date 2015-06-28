@@ -1,0 +1,145 @@
+#main
+{
+    max-width: 100%;
+    min-width:1100px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 800px;
+
+}
+.biodata
+{
+    color: darkcyan;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 22px;
+}
+#bgimg
+{
+    max-width: 100%;
+    width:40%;
+    height: 500px;
+    background-color: white;
+    float: left;
+
+}
+
+#form
+{
+    max-width: 100%;
+    width:60%;
+   /* background-color: red;*/
+    float: right;
+
+}
+
+img
+{
+    max-width: 100%;
+    width: 100%;
+    float: left;
+}
+input{
+
+    padding:10px 15px 5px 12px;
+    border-radius: 5px 5px;
+
+}
+form{
+    font-family:"Comic Sans MS", cursive;
+    font-size: 14px;
+    box-shadow: 10px 10px 10px #777777;
+}
+legend{
+    font-size: 28px;
+}
+h4
+{
+    font-size: 14px; !important;
+    margin-bottom: 5px;
+}
+#firstname{
+    margin-left: 1em;
+}
+#userid
+{
+    margin-right: 10px;
+}
+#lastname
+{
+    margin-left: 17px;
+}
+#ltname
+{
+    margin-left:2px ;
+}
+#userid
+{
+    margin-left: 15px;
+}
+#email
+{
+    margin-left: 3em;
+}
+#pwd
+{
+    margin-left: 8em;
+}
+input:hover
+{
+    background-color:beige;
+}
+#login:hover
+{
+    cursor:pointer;
+    background-color:red;
+    color:white;
+    font-weight: bold;
+}
+#login
+{
+    width:130px;
+
+    text-align: center;
+    border-radius:150px 60px;
+    border-bottom:solid;
+background-color: #f1f100;
+    color: #000000;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 12px;
+    float: right;
+    font-size: 14px;
+    font-family:"Comic Sans MS", cursive;
+
+}
+textarea
+{
+    border-radius: 5px 5px;
+}
+textarea:hover
+{
+    background-color:beige;
+}
+
+#male
+{
+    margin-left: 30px;
+}
+footer
+{
+    max-width: 100%;
+
+
+
+    margin-top: 90px;
+    margin-bottom:0px;
+    padding: 3px;
+    font-family:"Comic Sans MS", cursive;
+    background-color:darkgreen;
+    color:white ;
+    text-align: center;
+    font-size: 14px;
+
+}
